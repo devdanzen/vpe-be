@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- ===== VRE - Fungoid ===== -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Races Expanded - Fungoid</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/XenotypeDef[defName="VRE_Fungoid"]/genes</xpath>
+                    <value>
+                        <li>Gene_Puppeteer</li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ===== VRE - Archon ===== -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Races Expanded - Archon</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/XenotypeDef[defName="VRE_Archon"]/genes</xpath>
+                    <value>
+                        <li>Gene_Archon</li>
+                        <li>Gene_Archotechist</li>
+                        <li>Gene_Chronopath</li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ===== VRE - Sanguophages  ===== -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Races Expanded - Sanguophage</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- ===== Bruxa ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/XenotypeDef[defName="VRE_Bruxa"]/genes</xpath>
+                    <value>
+                        <li>Gene_Hemosage</li>
+                        <li>Gene_Archon</li>
+                        <li>Gene_Puppeteer</li>
+                    </value>
+                </li>
+
+                <!-- ===== Strigoi ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/XenotypeDef[defName="VRE_Strigoi"]/genes</xpath>
+                    <value>
+                        <li>Gene_Hemosage</li>
+                        <li>Gene_Harmonist</li>
+                        <li>Gene_Warlord</li>
+                    </value>
+                </li>
+
+                <!-- ===== Ekkimian ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/XenotypeDef[defName="VRE_Ekkimian"]/genes</xpath>
+                    <value>
+                        <li>Gene_Hemosage</li>
+                        <li>Gene_Necropath</li>
+                        <li>Gene_Nightstalker</li>
+                    </value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ===== VRE - Phytokins ===== -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Races Expanded - Phytokin</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- ===== Gauranlenkin, Animakin, and Poluxkin ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/XenotypeDef[defName="VRE_Gauranlenkin" or defName="VRE_Animakin" or
+                        defName="VRE_Poluxkin"]/genes</xpath>
+                    <value>
+                        <li>Gene_Wildspeaker</li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ===== VRE - Highmate ===== -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Races Expanded - Highmate</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- ===== Lowmate ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/XenotypeDef[defName="VRE_Lowmate"]/genes</xpath>
+                    <value>
+                        <li>Gene_Empath</li>
+                    </value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ===== VRE - Hussar ===== -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Races Expanded - Hussar</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- ===== Uhlan ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath> /Defs/XenotypeDef[defName="VREH_Uhlan"]/genes</xpath>
+                    <value>
+                        <li>Gene_Warlord</li>
+                    </value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ===== VRE - Saurid ===== -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Races Expanded - Saurid</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- ===== Saurid ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath> /Defs/XenotypeDef[defName="VRESaurids_Saurid"]/genes</xpath>
+                    <value>
+                        <li>Gene_Skipmaster</li>
+                        <li>Gene_Staticlord</li>
+                    </value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
+
+    <!-- ===== Dirtmole ===== -->
+    <Operation Class="PatchOperationAdd">
+        <xpath> /Defs/XenotypeDef[defName="Dirtmole"]/genes</xpath>
+        <value>
+            <li>Gene_Nightstalker</li>
+            <li>Gene_Technomancer</li>
+        </value>
+    </Operation>
+
+    <!-- ===== Genie ===== -->
+    <Operation Class="PatchOperationAdd">
+        <xpath> /Defs/XenotypeDef[defName="Genie"]/genes</xpath>
+        <value>
+            <li>Gene_Chronopath</li>
+            <li>Gene_Harmonist</li>
+            <li>Gene_Technomancer</li>
+        </value>
+    </Operation>
+
+    <!-- ===== Highmate ===== -->
+    <Operation Class="PatchOperationAdd">
+        <xpath> /Defs/XenotypeDef[defName="Highmate"]/genes</xpath>
+        <value>
+            <li>Gene_Archon</li>
+            <li>Gene_Empath</li>
+            <li>Gene_Puppeteer</li>
+        </value>
+    </Operation>
+
+    <!-- ===== Hussar ===== -->
+    <Operation Class="PatchOperationAdd">
+        <xpath> /Defs/XenotypeDef[defName="Hussar"]/genes</xpath>
+        <value>
+            <li>Gene_Skipmaster</li>
+            <li>Gene_Warlord</li>
+        </value>
+    </Operation>
+
+    <!-- ===== Impid ===== -->
+    <Operation Class="PatchOperationAdd">
+        <xpath> /Defs/XenotypeDef[defName="Impid"]/genes</xpath>
+        <value>
+            <li>Gene_Conflagrator</li>
+            <li>Gene_Staticlord</li>
+        </value>
+    </Operation>
+
+    <!-- ===== Neanderthal ===== -->
+    <Operation Class="PatchOperationAdd">
+        <xpath> /Defs/XenotypeDef[defName="Neanderthal"]/genes</xpath>
+        <value>
+            <li>Gene_Frostshaper</li>
+            <li>Gene_Protector</li>
+        </value>
+    </Operation>
+
+    <!-- ===== Pigskin ===== -->
+    <Operation Class="PatchOperationAdd">
+        <xpath> /Defs/XenotypeDef[defName="Pigskin"]/genes</xpath>
+        <value>
+            <li>Gene_Protector</li>
+            <li>Gene_Wildspeaker</li>
+        </value>
+    </Operation>
+
+    <!-- ===== Sanguophage ===== -->
+    <Operation Class="PatchOperationAdd">
+        <xpath> /Defs/XenotypeDef[defName="Sanguophage"]/genes</xpath>
+        <value>
+            <li>Gene_Archotechist</li>
+            <li>Gene_Chronopath</li>
+            <li>Gene_Hemosage</li>
+        </value>
+    </Operation>
+
+    <!-- ===== Waster ===== -->
+    <Operation Class="PatchOperationAdd">
+        <xpath> /Defs/XenotypeDef[defName="Waster"]/genes</xpath>
+        <value>
+            <li>Gene_Necropath</li>
+            <li>Gene_Protector</li>
+        </value>
+    </Operation>
+
+    <!-- ===== Yttakin ===== -->
+    <Operation Class="PatchOperationAdd">
+        <xpath> /Defs/XenotypeDef[defName="Yttakin"]/genes</xpath>
+        <value>
+            <li>Gene_Frostshaper</li>
+            <li>Gene_Warlord</li>
+            <li>Gene_Wildspeaker</li>
+        </value>
+    </Operation>
+
+</Patch>

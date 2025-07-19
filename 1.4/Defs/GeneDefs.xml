@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <GeneDef Name="GenePsycastBase" Abstract="True">
+        <biostatCpx>3</biostatCpx>
+        <displayCategory>Psycast</displayCategory>
+        <randomChosen>true</randomChosen>
+        <!-- <endogeneCategory>Psycast</endogeneCategory> -->
+    </GeneDef>
+
+
+    <!-- ===== Archon ===== -->
+    <GeneDef ParentName="GenePsycastBase">
+        <defName>Gene_Archon</defName>
+        <label>Archon</label>
+        <labelShortAdj>Archon</labelShortAdj>
+        <description>Carriers of this gene is able to learn Archon psycaster path. Highmates,
+            Archons, and Bruxas have this natural endogene.
+        </description>
+        <iconPath>GeneIcons/Gene_Archon</iconPath>
+        <displayOrderInCategory>500</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+    <!-- ===== Archotechist ===== -->
+    <GeneDef ParentName="GenePsycastBase">
+        <defName>Gene_Archotechist</defName>
+        <label>Archotechist</label>
+        <labelShortAdj>Archotechist</labelShortAdj>
+        <description>Carriers of this gene is able to learn Archotechist psycaster path.
+            Sanguophages and Archons have this natural endogene.
+        </description>
+        <iconPath>GeneIcons/Gene_Archotechist</iconPath>
+        <displayOrderInCategory>501</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+    <!-- ===== Chronopath ===== -->
+    <GeneDef ParentName="GenePsycastBase">
+        <defName>Gene_Chronopath</defName>
+        <label>Chronopath</label>
+        <labelShortAdj>Chronopath</labelShortAdj>
+        <description>Carriers of this gene is able to learn Chronopath psycaster path. Genies,
+            Sanguophages, and Archons have this natural endogene.
+        </description>
+        <iconPath>GeneIcons/Gene_Chronopath</iconPath>
+        <displayOrderInCategory>502</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+    <!-- ===== Conflagrator ===== -->
+    <GeneDef ParentName="GenePsycastBase">
+        <defName>Gene_Conflagrator</defName>
+        <label>Conflagrator</label>
+        <labelShortAdj>Conflagrator</labelShortAdj>
+        <description>Carriers of this gene is able to learn Conflagrator psycaster path. Impids have
+            this natural endogene.
+        </description>
+        <iconPath>GeneIcons/Gene_Conflagrator</iconPath>
+        <displayOrderInCategory>503</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+    <!-- ===== Empath ===== -->
+    <GeneDef ParentName="GenePsycastBase">
+        <defName>Gene_Empath</defName>
+        <label>Empath</label>
+        <labelShortAdj>Empath</labelShortAdj>
+        <description>Carriers of this gene is able to learn Empath psycaster path. Highmates and
+            Lowmates have this natural endogene.
+        </description>
+        <iconPath>GeneIcons/Gene_Empath</iconPath>
+        <displayOrderInCategory>504</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+
+    <!-- ===== Frostshaper ===== -->
+    <GeneDef ParentName="GenePsycastBase">
+        <defName>Gene_Frostshaper</defName>
+        <label>Frostshaper</label>
+        <labelShortAdj>Frostshaper</labelShortAdj>
+        <description>Carriers of this gene is able to learn Froshshaper psycaster path. Yttakins and
+            Neanderthals have this natural endogene.
+        </description>
+        <iconPath>GeneIcons/Gene_Frostshaper</iconPath>
+        <displayOrderInCategory>505</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+    <!-- ===== Harmonist ===== -->
+    <GeneDef ParentName="GenePsycastBase">
+        <defName>Gene_Harmonist</defName>
+        <label>Harmonist</label>
+        <labelShortAdj>Harmonist</labelShortAdj>
+        <description>Carriers of this gene is able to learn Harmonist psycaster path. Genies and
+            Strigois have this natural endogene.
+        </description>
+        <iconPath>GeneIcons/Gene_Harmonist</iconPath>
+        <displayOrderInCategory>506</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+    <!-- ===== Necropath ===== -->
+    <GeneDef ParentName="GenePsycastBase">
+        <defName>Gene_Necropath</defName>
+        <label>Necropath</label>
+        <labelShortAdj>Necropath</labelShortAdj>
+        <description>Carriers of this gene is able to learn Necropath psycaster path. Wasters and
+            Ekkimians have this natural endogene.
+        </description>
+        <iconPath>GeneIcons/Gene_Necropath</iconPath>
+        <displayOrderInCategory>507</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+    <!-- ===== Nightstalker ===== -->
+    <GeneDef ParentName="GenePsycastBase">
+        <defName>Gene_Nightstalker</defName>
+        <label>Nightstalker</label>
+        <labelShortAdj>Nightstalker</labelShortAdj>
+        <description>Carriers of this gene is able to learn Nighstalker psycaster path. Dirtmoles
+            and Ekkimians have this natural endogene.
+        </description>
+        <iconPath>GeneIcons/Gene_Nightstalker</iconPath>
+        <displayOrderInCategory>508</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+    <!-- ===== Protector ===== -->
+    <GeneDef ParentName="GenePsycastBase">
+        <defName>Gene_Protector</defName>
+        <label>Protector</label>
+        <labelShortAdj>Protector</labelShortAdj>
+        <description>Carriers of this gene is able to learn Protector psycaster path. Neanderthals,
+            Wasters and Pigskins have this natural endogene.
+        </description>
+        <iconPath>GeneIcons/Gene_Protector</iconPath>
+        <displayOrderInCategory>509</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+    <!-- ===== Skipmaster ===== -->
+    <GeneDef ParentName="GenePsycastBase">
+        <defName>Gene_Skipmaster</defName>
+        <label>Skipmaster</label>
+        <labelShortAdj>Skipmaster</labelShortAdj>
+        <description>Carriers of this gene is able to learn Skipmaster psycaster path. Hussars and
+            Saurids have this natural endogene.
+        </description>
+        <iconPath>GeneIcons/Gene_Skipmaster</iconPath>
+        <displayOrderInCategory>510</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+    <!-- ===== Staticlord ===== -->
+    <GeneDef ParentName="GenePsycastBase">
+        <defName>Gene_Staticlord</defName>
+        <label>Staticlord</label>
+        <labelShortAdj>Staticlord</labelShortAdj>
+        <description>Carriers of this gene is able to learn Staticlord psycaster path. Impids and
+            Saurids have this natural endogene.
+        </description>
+        <iconPath>GeneIcons/Gene_Staticlord</iconPath>
+        <displayOrderInCategory>511</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+    <!-- ===== Technomancer ===== -->
+    <GeneDef ParentName="GenePsycastBase">
+        <defName>Gene_Technomancer</defName>
+        <label>Technomancer</label>
+        <labelShortAdj>Technomancer</labelShortAdj>
+        <description>Carriers of this gene is able to learn Technomancer psycaster path. Genies and
+            Dirtmoles have this natural endogene.
+        </description>
+        <iconPath>GeneIcons/Gene_Technomancer</iconPath>
+        <displayOrderInCategory>512</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+    <!-- ===== Warlord ===== -->
+    <GeneDef ParentName="GenePsycastBase">
+        <defName>Gene_Warlord</defName>
+        <label>Warlord</label>
+        <labelShortAdj>Warlord</labelShortAdj>
+        <description>Carriers of this gene is able to learn Warlord psycaster path. Uhlans, Hussars,
+            Yttakins, and Strigois have this natural endogene.
+        </description>
+        <iconPath>GeneIcons/Gene_Warlord</iconPath>
+        <displayOrderInCategory>513</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+    <!-- ===== Wildspeaker ===== -->
+    <GeneDef ParentName="GenePsycastBase">
+        <defName>Gene_Wildspeaker</defName>
+        <label>Wildspeaker</label>
+        <labelShortAdj>Wildspeaker</labelShortAdj>
+        <description>Carriers of this gene is able to learn Wildspeaker psycaster path. Yttakins,
+            Pigskins, and Phytokins have this natural endogene.
+        </description>
+        <iconPath>GeneIcons/Gene_Wildspeaker</iconPath>
+        <displayOrderInCategory>514</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+    <!-- ===== Hemosage ===== -->
+    <GeneDef ParentName="GenePsycastBase">
+        <defName>Gene_Hemosage</defName>
+        <label>Hemosage</label>
+        <labelShortAdj>Hemosage</labelShortAdj>
+        <description>Carriers of this gene is able to learn Hemosage psycaster path. All
+            Sanguophages have this natural endogene.
+        </description>
+        <iconPath>GeneIcons/Gene_Hemosage</iconPath>
+        <displayOrderInCategory>515</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+    <!-- ===== Puppeteer ===== -->
+    <GeneDef ParentName="GenePsycastBase">
+        <defName>Gene_Puppeteer</defName>
+        <label>Puppeteer</label>
+        <labelShortAdj>Puppeteer</labelShortAdj>
+        <description>Carriers of this gene is able to learn Puppeteer psycaster path. Highmate,
+            Fungoids and Bruxas have this natural endogene.
+        </description>
+        <iconPath>GeneIcons/Gene_Puppeteer</iconPath>
+        <displayOrderInCategory>516</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+    <!-- ===== Misc ===== -->
+    <GeneDef>
+        <defName>IncreasedMetabolism</defName>
+        <label>Increased Metabolism</label>
+        <labelShortAdj>Increased Metabolism</labelShortAdj>
+        <description>Carrier's metabolism of this gene is increased by 2
+        </description>
+        <iconPath>GeneIcons/IncreasedMetabolism</iconPath>
+        <biostatMet>2</biostatMet>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>600</displayOrderInCategory>
+        <marketValueFactor>3</marketValueFactor>
+    </GeneDef>
+
+</Defs>

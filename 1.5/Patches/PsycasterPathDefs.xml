@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Psycasts Expanded</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- PsycasterPathDefs -->
+
+                <!-- ===== Archon ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Archon"]</xpath>
+                    <value>
+                        <lockedReason>Archon gene</lockedReason>
+                        <requiredGene>
+                            <GeneDef>Gene_Archon</GeneDef>
+                        </requiredGene>
+                    </value>
+                </li>
+
+                <!-- ===== Chronopath ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Chronopath"]</xpath>
+                    <value>
+                        <lockedReason>Chronopath gene</lockedReason>
+                        <requiredGene>
+                            <GeneDef>Gene_Chronopath</GeneDef>
+                        </requiredGene>
+                    </value>
+                </li>
+
+                <!-- ===== Conflagrator ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Conflagrator"]</xpath>
+                    <value>
+                        <lockedReason>Conflagrator gene</lockedReason>
+                        <requiredGene>
+                            <GeneDef>Gene_Conflagrator</GeneDef>
+                        </requiredGene>
+                    </value>
+                </li>
+
+                <!-- ===== Empath ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Empath"]</xpath>
+                    <value>
+                        <lockedReason>Empath gene</lockedReason>
+                        <requiredGene>
+                            <GeneDef>Gene_Empath</GeneDef>
+                        </requiredGene>
+                    </value>
+                </li>
+
+                <!-- ===== Frostshaper ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Frostshaper"]</xpath>
+                    <value>
+                        <lockedReason>Frostshaper gene</lockedReason>
+                        <requiredGene>
+                            <GeneDef>Gene_Frostshaper</GeneDef>
+                        </requiredGene>
+                    </value>
+                </li>
+
+                <!-- ===== Harmonist ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Harmonist"]</xpath>
+                    <value>
+                        <lockedReason>Harmonist gene</lockedReason>
+                        <requiredGene>
+                            <GeneDef>Gene_Harmonist</GeneDef>
+                        </requiredGene>
+                    </value>
+                </li>
+
+                <!-- ===== Necropath ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Necropath"]</xpath>
+                    <value>
+                        <lockedReason>Necropath gene</lockedReason>
+                        <requiredGene>
+                            <GeneDef>Gene_Necropath</GeneDef>
+                        </requiredGene>
+                    </value>
+                </li>
+
+                <!-- ===== Nightstalker ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Nightstalker"]</xpath>
+                    <value>
+                        <lockedReason>Nightstalker gene</lockedReason>
+                        <requiredGene>
+                            <GeneDef>Gene_Nightstalker</GeneDef>
+                        </requiredGene>
+                    </value>
+                </li>
+
+                <!-- ===== Protector ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Protector"]</xpath>
+                    <value>
+                        <lockedReason>Protector gene</lockedReason>
+                        <requiredGene>
+                            <GeneDef>Gene_Protector</GeneDef>
+                        </requiredGene>
+                    </value>
+                </li>
+
+                <!-- ===== Skipmaster ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Skipmaster"]</xpath>
+                    <value>
+                        <lockedReason>Skipmaster gene</lockedReason>
+                        <requiredGene>
+                            <GeneDef>Gene_Skipmaster</GeneDef>
+                        </requiredGene>
+                    </value>
+                </li>
+
+                <!-- ===== Staticlord ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Staticlord"]</xpath>
+                    <value>
+                        <lockedReason>Staticlord gene</lockedReason>
+                        <requiredGene>
+                            <GeneDef>Gene_Staticlord</GeneDef>
+                        </requiredGene>
+                    </value>
+                </li>
+
+                <!-- ===== Technomancer ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>
+                        /Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Technomancer"]</xpath>
+                    <value>
+                        <lockedReason>Technomancer gene</lockedReason>
+                        <requiredGene>
+                            <GeneDef>Gene_Technomancer</GeneDef>
+                        </requiredGene>
+                    </value>
+                </li>
+
+                <!-- ===== Warlord ===== -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Warlord"]</xpath>
+                    <value>
+                        <lockedReason>Warlord gene</lockedReason>
+                        <requiredGene>
+                            <GeneDef>Gene_Warlord</GeneDef>
+                        </requiredGene>
+                    </value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
+
+    <Operation Class="VFECore.PatchOperationToggableSequence">
+        <enabled>True</enabled>
+        <mods>
+            <li>Vanilla Psycasts Expanded</li>
+            <li>Vanilla Psycasts Expanded - Hemosage</li>
+            <li>Vanilla Psycasts Expanded - Puppeteer</li>
+        </mods>
+        <label>Archotechist, Wildspeaker, Hemosage, and Puppeteer are required gene:</label>
+        <operations>
+
+            <!-- ===== Archotechist ===== -->
+            <li Class="PatchOperationReplace">
+                <xpath>
+                    /Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Archotechist"]/lockedReason</xpath>
+                <value>
+                    <lockedReason>Archotechist gene</lockedReason>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>
+                    /Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Archotechist"]</xpath>
+                <value>
+                    <requiredGene>
+                        <GeneDef>Gene_Archotechist</GeneDef>
+                    </requiredGene>
+                </value>
+            </li>
+
+            <li Class="PatchOperationRemove">
+                <xpath>
+                    /Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Archotechist"]/requiredBackstoriesAny</xpath>
+            </li>
+
+            <!-- ===== Wildspeaker ===== -->
+            <li Class="PatchOperationReplace">
+                <xpath>
+                    /Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Wildspeaker"]/lockedReason</xpath>
+                <value>
+                    <lockedReason>Wildspeaker gene</lockedReason>
+                </value>
+            </li>
+
+
+            <li Class="PatchOperationAdd">
+                <xpath>
+                    /Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Wildspeaker"]</xpath>
+                <value>
+                    <requiredGene>
+                        <GeneDef>Gene_Wildspeaker</GeneDef>
+                    </requiredGene>
+                </value>
+            </li>
+
+            <li Class="PatchOperationRemove">
+                <xpath>
+                    /Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPE_Wildspeaker"]/requiredFocus</xpath>
+            </li>
+
+            <!-- ===== Hemosage ===== -->
+            <li Class="PatchOperationReplace">
+                <xpath>
+                    /Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPEH_Hemosage"]/lockedReason</xpath>
+                <value>
+                    <lockedReason>Hemosage gene</lockedReason>
+                </value>
+            </li>
+
+            <li Class="PatchOperationReplace">
+                <xpath>
+                    /Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPEH_Hemosage"]/requiredGene</xpath>
+                <value>
+                    <requiredGene>
+                        <GeneDef>Gene_Hemosage</GeneDef>
+                    </requiredGene>
+                </value>
+            </li>
+
+            <!-- ===== Puppeteer ===== -->
+            <li Class="PatchOperationReplace">
+                <xpath>
+                    /Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPEP_Puppeteer"]/lockedReason</xpath>
+                <value>
+                    <lockedReason>Puppeteer gene</lockedReason>
+                </value>
+            </li>
+
+            <li Class="PatchOperationAdd">
+                <xpath>
+                    /Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPEP_Puppeteer"]</xpath>
+                <value>
+                    <requiredGene>
+                        <GeneDef>Gene_Puppeteer</GeneDef>
+                    </requiredGene>
+                </value>
+            </li>
+
+            <li Class="PatchOperationRemove">
+                <xpath>
+                    /Defs/VanillaPsycastsExpanded.PsycasterPathDef[defName="VPEP_Puppeteer"]/requiredBackstoriesAny</xpath>
+            </li>
+
+        </operations>
+    </Operation>
+
+</Patch>

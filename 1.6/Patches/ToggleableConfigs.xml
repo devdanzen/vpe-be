@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="VFECore.PatchOperationToggableSequence">
+        <enabled>False</enabled>
+        <mods>
+            <li>Vanilla Psycast Expanded - Biotech Integration</li>
+        </mods>
+        <label>Limit each xenotype to only have one psycast gene:</label>
+        <operations>
+            <li Class="PatchOperationAdd">
+                <xpath>/Defs/GeneDef[@Name="GenePsycastBase"]</xpath>
+                <value>
+                    <exclusionTags>
+                        <li>Psycast</li>
+                    </exclusionTags>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+    <Operation Class="VFECore.PatchOperationToggableSequence">
+        <enabled>True</enabled>
+        <label>Are you sure about granting hussars to use psycasts?:</label>
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/XenotypeDef[defName="Hussar"]/genes/li[text()="PsychicAbility_Deaf"]</xpath>
+            </li>
+
+            <li
+                Class="PatchOperationAdd">
+                <xpath>/Defs/XenotypeDef[defName="Hussar"]/genes</xpath>
+                <value>
+                    <li>IncreasedMetabolism</li>
+                </value>
+            </li>
+        </operations>
+    </Operation>
+
+</Patch>
